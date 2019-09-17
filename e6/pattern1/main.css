@@ -1,0 +1,32 @@
+body{
+  margin: auto;
+  overflow-x: hidden;
+}
+#container{
+  width:100%;
+  margin-left: auto;
+  margin-top:auto;
+}
+.tile1, .tile2, .tile3{
+  float:left;
+  opacity: .9;
+  margin:auto;
+}
+.tile1{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: dodgerblue;
+}
+.tile2{
+  width: 50px;
+  height: 200px;
+  background-color: violet;
+  transform: rotate(90deg);
+}
+.tile3{
+  width: 50px;
+  height: 50px;
+  transform-style: flat;
+  background-color: deeppink;
+}
