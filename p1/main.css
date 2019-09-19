@@ -18,10 +18,23 @@ p {
   text-align:center;
   text-align-last: center;
   color:green;
+  font-size:26px;
 }
 li {
   text-align:left;
   text-indent: 1em;
   text-emphasis-color: yellow;
-
-}
+  }
+a{
+  color: black;
+  text-decoration: none;
+  font-size: 26px;
+  }
+a:hover{
+  color:orange;
+  border-bottom: 10px dots orange;
+  cursor: grab;
+  }
+a:focus {
+  color: yellow;
+  }
