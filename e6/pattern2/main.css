@@ -1,0 +1,33 @@
+body{
+  margin: auto;
+  overflow-x: hidden;
+}
+#container{
+  width:100%;
+  margin-left: auto;
+  margin-top:auto;
+}
+.tile1, .tile2, .tile3{
+  float:left;
+  opacity: .9;
+  margin: inherit;
+}
+.tile1{
+  width: 220px;
+    height: 200px;
+    border-radius: 50px 75% 75% 200px ;
+    background:linear-gradient(to right, pink, red)
+  }
+.tile2{
+  width: 30px;
+  height: 200px;
+  background:linear-gradient(to bottom, rgb(200,200,10), violet,rgb(0,200,0));
+  border-radius: 100%;
+  transform:  (90deg);
+}
+.tile3{  width:220px;
+  height: 200px;
+  border-radius: 75% 50px 100% 75% ;
+  background:linear-gradient(to left, blue, pink);
+
+}

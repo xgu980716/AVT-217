@@ -13,20 +13,20 @@ body{
   margin:auto;
 }
 .tile1{
-  width: 100px;
-  height: 100px;
+  width: 102px;
+  height: 102px;
   border-radius: 100%;
-  background-color: dodgerblue;
+  background-color: purple;
 }
 .tile2{
-  width: 50px;
-  height: 200px;
+  width: 102px;
+  height: 102px;
   background-color: violet;
   transform: rotate(90deg);
 }
 .tile3{
-  width: 50px;
-  height: 50px;
+  width: 52px;
+  height: 52px;
   transform-style: flat;
   background-color: deeppink;
 }
