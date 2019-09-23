@@ -26,15 +26,22 @@ li {
   text-emphasis-color: yellow;
   }
 a{
-  color: black;
+  color: grey;
   text-decoration: none;
   font-size: 26px;
   }
 a:hover{
   color:orange;
-  border-bottom: 10px dots orange;
+  backgroud-color: none;
+  border-bottom: 10px dotted orange;
   cursor: grab;
-  }
+}
 a:focus {
   color: yellow;
   }
+a:visited{
+  border-style: 5px dotted orange;
+}
+a:active{
+  color:red;
+}
