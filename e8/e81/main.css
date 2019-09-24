@@ -1,0 +1,22 @@
+body{
+  background-color: #333333;
+}
+#board{
+  width:800px;
+  height:800px;
+  background-color: white;
+  margin:auto;
+}
+
+.red{
+  width: 100px;
+    height: 100px;
+    background-color: red;
+    float:left;
+  }
+.white{
+  width: 100px;
+  height: 100px;
+  background-color:white;
+  float:left;
+}

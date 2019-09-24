@@ -1,0 +1,47 @@
+body{
+  background-color: #333333;
+}
+#board{
+  width:700px;
+  height:700px;
+  background-color: white;
+  margin:auto;
+}
+
+.topRed{
+  width: 700px;
+    height: 70px;
+    background-color: red;
+    float:left;
+  }
+
+.topWhite{
+  width: 700px;
+  height: 5px;
+  background-color:white;
+  float:left;
+}
+.secRed{
+  width: 700px;
+    height: 20px;
+    background-color: red;
+    float:left;
+  }
+  .secWhite{
+    width: 700px;
+    height: 5px;
+    background-color:white;
+    float:left;
+  }
+  .Red{
+    width: 230px;
+    height: 525px;
+    background-color: red;
+    float:left;
+    }
+  .White{
+    width: 5px;
+    height: 525px;
+    background-color:white;
+    float:left;
+    }
