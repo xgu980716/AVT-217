@@ -1,11 +1,29 @@
 body{
-  background-color: #333333;
+  background-color: yellow;
+}
+.cf:before,
+.cf:after{
+  content:"";/*1*/
+  display:table;/*2*/
+}
+.cf:after{
+  clear:both;
+}
+*{
+  box-sizing: border-box;
 }
 #board{
   width:710px;
-  height:710px;
+  height:705px;
   background-color: white;
   margin:auto;
+}
+.center{
+  width:600px;
+  height:350px;
+  float:left;
+  margin-right: 5px;
+
 }
 
 .topRed{
@@ -23,7 +41,19 @@ body{
       float:left;
       margin-bottom: 5px;
     }
-
+.topRed2{
+  width: 50px;
+  height: 350px;
+  background-color: red;
+  float:left;
+  margin-right: 5px
+  }
+.topRed3{
+  width: 50px;
+  height: 350px;
+  background-color: red;
+  float:left;
+  }
 .topWhite{
   width: 600px;
   height: 47.5px;
@@ -31,14 +61,26 @@ body{
   margin:0 5px 5px 0;
   float:left;
 }
+.topWhite1{
+  width: 600px;
+  height: 47.5px;
+  background-color:red;
+  margin:5px 5px 5px 0;
+  float:left;
+}
 .secRed{
   width: 297.5px;
     height: 297.5px;
     background-color: red;
     float:left;
-    margin-bottom:5px;
-    margin-right: 5px;
+    margin-right:5px;
   }
+.secRed1{
+    width: 297.5px;
+      height: 297.5px;
+      background-color: red;
+      float:left;
+    }
   .secWhite{
     width: 600px;
     height: 50px;

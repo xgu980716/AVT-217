@@ -1,0 +1,61 @@
+#board{
+  width:430px;
+  height:620px;
+  background-color: grey;
+  margin:auto;
+}
+.first{
+  width:100px;
+  height:620px;
+  background-color: grey;
+  float:left;
+  margin-right: 10px;
+}
+.a{
+  width:100px;
+  height:200px;
+  margin:0 10px 10px 0;
+  background-color: red;
+  float:left;
+}
+.b{
+  width:100px;
+  height:410px;
+  margin-right: 10px;
+  background-color: red;
+  float:left;
+}
+.second{
+  width:210px;
+  height:620px;
+  background-color: grey;
+  float:left;
+}
+.c1{
+  width:100px;
+  height:100px;
+  margin:0 10px 10px 0;
+  background-color: red;
+  float:left;
+}
+.c{
+  width:100px;
+  height:100px;
+  margin:0 0 10px 0;
+  background-color: red;
+  float:left;
+}
+.d{
+  width:210px;
+  height:90px;
+  margin:0 0 10px 0;
+  background-color: red;
+  float:left;
+}
+.e{
+  width:210px;
+  height:410px;
+  margin:0 0 0 0;
+  background-color: red;
+  float:left;
+}

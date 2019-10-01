@@ -33,7 +33,7 @@ body{
   .secWhite{
     width: 600px;
     height: 50px;
-    background-color:white;
+    background-color:red;
     float:left;
     margin:0 200px 150px 0;
   }
