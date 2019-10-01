@@ -1,0 +1,48 @@
+body{
+  background-color: #333333;
+}
+#board{
+  width:710px;
+  height:710px;
+  background-color: white;
+  margin:auto;
+}
+
+.topRed{
+  width: 50px;
+    height: 350px;
+    background-color: red;
+    float:left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+.topRed1{
+    width: 50px;
+      height: 350px;
+      background-color: red;
+      float:left;
+      margin-bottom: 5px;
+    }
+
+.topWhite{
+  width: 600px;
+  height: 47.5px;
+  background-color:red;
+  margin:0 5px 5px 0;
+  float:left;
+}
+.secRed{
+  width: 297.5px;
+    height: 297.5px;
+    background-color: red;
+    float:left;
+    margin-bottom:5px;
+    margin-right: 5px;
+  }
+  .secWhite{
+    width: 600px;
+    height: 50px;
+    background-color:white;
+    float:left;
+    margin:0 200px 150px 0;
+  }
