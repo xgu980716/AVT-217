@@ -4,7 +4,8 @@ body{
   margin:100px auto;
 }
 .container{
- margin:200px auto;
+ margin:0 0 150px 0;
+ width:auto;
 }
 .big{
   font-family: birra-2,serif;
@@ -21,17 +22,18 @@ body{
 }
 
 .p{
-  font-family: pantelleria, sans-serif;
+  font-family: vortice-concept,sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
   text-align: left;
   line-height: 35px;
   margin:0;
+  float: left;
 }
 h4{
-  font-family: myriad-pro,sans-serif;
-  font-weight: 700;
+  font-family: vortice-concept,sans-serif;
+  font-weight: 400;
   font-style: normal;
   text-align:center;
   margin:20px 0 50px 0;
