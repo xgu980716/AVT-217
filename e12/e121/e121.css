@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(220, 176, 106);
+  width:40vw;
+  margin:100px auto;
+}
+h1,h2{
+  font-family: postino-std, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:100px;
+  line-height: 0.5;
+  }
+h2{
+  font-size:30px;
+  line-height: 0;
+  margin-bottom: 40px;
+}
+h3{
+  font-family: postino-std, serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: right;
+  line-height: .3;
+  font-size: 35px;
+}
+h4{
+  font-family: myriad-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align:center;
+  margin:120px 0 50px 0;
+  font-size: 50px;
+}
+p{
+  font-family: pantelleria, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: left;
+  line-height: 35px;
+  }
