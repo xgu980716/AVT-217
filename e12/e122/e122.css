@@ -1,31 +1,62 @@
 body{
   background-color: rgb(220, 176, 106);
-  width:50vw;
+  width:70vw;
   margin:100px auto;
 }
-.container{
- margin:0 0 150px 0;
- width:auto;
+#container{
+ width:900px;
+ height:100px;
+ margin:auto;
 }
-.big{
+h1{
   font-family: birra-2,serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 160px;
-  float:left;
-  margin:0 10px 0 ;
+  font-size: 80px;
+  margin:0;
+  text-align: center;
+  vertical-align: middle;
 }
-.middle{
-  font-size: 20px;
+#big{
   float:left;
-  line-height: 10px;
+  width:300px;
+  height:100px;
+  margin:0 0 100px 0;
 }
 
+.middle{
+  float:left;
+  width:300px;
+  height:100px;
+  margin:0 0 100px 0;
+  display: table;
+}
+.letter{
+  width:300px;
+  height: 30px;
+  display:table-cell;
+  float:left;
+}
+h2{
+  font-size: 20px;
+  line-height: 0px;
+  float:left;
+  vertical-align:middle;
+  text-align: center;
+  width:100%;
+}
+#last{
+  float:left;
+  width:300px;
+  height:100px;
+  margin:0 0 100px 0;
+
+}
 .p{
   font-family: vortice-concept,sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
   line-height: 35px;
   margin:0;
@@ -35,7 +66,8 @@ h4{
   font-family: vortice-concept,sans-serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 50px;
   text-align:center;
-  margin:20px 0 50px 0;
+  margin:20px 0 0 0;
   font-size: 50px;
 }

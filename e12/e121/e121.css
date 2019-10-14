@@ -1,7 +1,11 @@
 body{
   background-color: rgb(220, 176, 106);
-  width:40vw;
+  width:70vw;
   margin:100px auto;
+}
+#container{
+  width:50vw;
+  margin:auto;
 }
 h1,h2{
   font-family: postino-std, serif;
@@ -35,7 +39,7 @@ p{
   font-family: pantelleria, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
   line-height: 35px;
   }
