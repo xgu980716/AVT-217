@@ -1,0 +1,36 @@
+body {
+  background-color: smokewhite;
+  text-align: center;
+  margin:auto;
+  width: 80%;
+}
+img {
+  max-width: 100%;
+  max-height:100%;
+  margin:50px auto;
+}
+p {
+  text-align:left;
+  text-align-last: middle;
+  max-width: 100%;
+  border-radius: 100px;
+  text-indent: 1em;
+}
+li {
+  text-align:left;
+  text-indent: 1em;
+  text-emphasis-color: yellow;
+}
+#title a{
+  color: black;
+  text-decoration: none;
+  font-size: 50px;
+  }
+#title a:hover{
+  color:orange;
+  border-bottom: 10px solid orange;
+  cursor: alias;
+  }
+#title a:focus {
+  color: yellow;
+}
