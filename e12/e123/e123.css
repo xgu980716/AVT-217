@@ -1,20 +1,30 @@
 
 body{
   background-color: rgba(20, 42, 66);
-  background-image:url('picture.jpg');
+  /*background-image:url('picture.jpg');*/
   background-size: 100%;
   background-repeat:no-repeat;
-  width:90%;
+  width:80%;
   margin:auto;
-  float:left;
+}
+#container{
+  margin:0;
+}
+img{
+  visibility: visible;
+}
+h1{
+    writing-mode: vertical-lr;
+    font-family: acuta, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: yellow;
+    margin-top:20vw;
+    font-size: 70px;
+
 }
 .title, .title1{
-  width:120px;
-  height:420px;
-  margin-top:27vw;
-  text-align: center;
-  vertical-align: middle;
-  writing-mode: vertical-rl;
+  margin-top:10%;
   font-size: 70px;
   float:left;
   margin-left:15vw;
@@ -22,9 +32,10 @@ body{
   font-weight: 400;
   font-style: normal;
   color: yellow;
+  margin-left:13%;
 }
 .title1{
-  margin-left: 13vw;
+  margin-left: 19%;
   font-size: 50px;
 }
 h2,h3{
@@ -53,10 +64,9 @@ p{
   font-family: source-han-sans-korean, sans-serif;
   font-weight: 100;
   font-style: normal;
-  margin: 20px auto;
   color:yellow;
   text-align: left;
 }
 .content{
-  margin-left: 10%;
+  float:left;
 }
