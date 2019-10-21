@@ -1,18 +1,13 @@
 
 body{
   background-color: rgba(20, 42, 66);
-  /*background-image:url('picture.jpg');*/
+  background-image:url('picture.jpg');
   background-size: 100%;
   background-repeat:no-repeat;
   width:80%;
   margin:auto;
 }
-#container{
-  margin:0;
-}
-img{
-  visibility: visible;
-}
+
 h1{
     writing-mode: vertical-lr;
     font-family: acuta, serif;
@@ -21,21 +16,19 @@ h1{
     color: yellow;
     margin-top:20vw;
     font-size: 70px;
-
+    float:left;
+    margin:0;
 }
+
 .title, .title1{
-  margin-top:10%;
+  margin-top:0;
   font-size: 70px;
   float:left;
-  margin-left:15vw;
-  font-family: acuta, serif;
-  font-weight: 400;
-  font-style: normal;
-  color: yellow;
-  margin-left:13%;
+  margin-left:10%;
 }
+
 .title1{
-  margin-left: 19%;
+  margin-left: 21%;
   font-size: 50px;
 }
 h2,h3{
@@ -44,14 +37,14 @@ h2,h3{
   font-style: normal;
   color: yellow;
   text-align:right;
-  margin-top: 600px;
+  margin-top: 400px;
 }
 h3{
   margin:0;
 }
 h4{
   font-size: 40px;
-  margin-top: 250px;
+  margin-top: 150px;
   font-family: source-han-sans-korean, sans-serif;
   font-weight: 100;
   font-style: normal;
