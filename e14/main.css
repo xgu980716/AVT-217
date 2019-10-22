@@ -1,0 +1,135 @@
+body {
+  background-color: smokewhite;
+  margin:auto;
+  width: 50vw;
+}
+
+
+.first, .second, .third, #container{
+  font-size:20px;
+  text-align:left;
+  text-align-last: middle;
+  max-width: 100%;
+  border-radius: 100px;
+  /* text-indent: 1em;*/
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 340;
+  font-style: normal;
+  font-size:25px;
+}
+.first{
+  font-size: 22px;
+  font-weight: 360 ;
+}
+h1, h2, h4{
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+h1{
+  font-size:50px;
+  text-align: center;
+}
+h2{
+  font-size:30px;
+  text-align: left;
+}
+h3{
+  text-align:center;
+  font-size: 22px;
+  font-weight: 200;
+}
+h4{
+  text-align: right;
+  font-size: 22px;
+  color:grey;
+
+}
+li {
+  text-align:left;
+  text-indent: 1em;
+  border-bottom: 2px solid;
+  font-family: arvo, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:25px;
+}
+
+a{
+  color: rgb(17, 166, 3);
+  text-decoration: none;
+  font-size: 26px;
+  }
+a:hover{
+  color:orange;
+  backgroud-color: none;
+  border-bottom: 10px dotted orange;
+  cursor: grab;
+}
+a:focus {
+  color: yellow;
+  }
+a:visited{
+  border-style: 5px dotted orange;
+}
+a:active{
+  color:red;
+}
+
+@media only screen and (max-width: 600px)
+{
+  html{background-color: #CCE8CF;}
+  body {
+    margin:auto;
+    width: 80vw;
+  }
+  h1, h2, h4{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  h1{
+    font-size:40px;
+    text-align: center;
+  }
+  h2{
+    font-size:25px;
+    text-align: left;
+  }
+  h3{
+    text-align:center;
+    font-size: 22px;
+    font-weight: 150;
+  }
+  h4{
+    text-align: right;
+    font-size: 22px;
+    color:grey;
+
+  }
+  li {
+    text-align:left;
+    text-indent: 1em;
+    border-bottom: 2px solid;
+    font-family: arvo, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+  }
+  .first, .second, .third, #container{
+    font-size:18px;
+    text-align:left;
+    text-align-last: middle;
+    max-width: 100%;
+    border-radius: 100px;
+    /* text-indent: 1em;*/
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 340;
+    font-style: normal;
+    font-size:20px;
+  }
+  .first{
+    font-size: 18px;
+    font-weight: 360 ;
+  }
+}
