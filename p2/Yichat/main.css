@@ -1,0 +1,36 @@
+body{
+  background-color: #CCCCCC;
+}
+#board{
+  width:1374px;
+  height:43px;
+  background: linear-gradient(to right, rgba(127, 71,221), orange);
+  margin:auto;
+  margin-top:56px;
+  float:left;
+}
+
+h1.yi{
+  font-family: orbitron, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #F7931E;
+  font-size:40pt;
+  float:left;
+  stroke:2pt;
+  margin-left: 50px;
+  margin-top: 28px;
+
+
+  }
+
+h1{
+  font-size:40pt;
+  font-family: roboto-mono,monospace;
+  font-weight: 300;
+  font-style: normal;
+  float:left;
+  line-height: 0px;
+  margin-left: 50px;
+  margin-top: 23px;
+}
