@@ -1,0 +1,17 @@
+.item__content {
+    width:1000px;
+    height:1000px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    color: #18314F;
+    background-color: #051a2d;
+    background-image: url('download-1.jpg') ,url('download.jpg'),url('download-2.jpg'),url('download-3.jpg');
+    background-position: top left,top right,bottom left,bottom right;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    overflow: hidden;
+}
