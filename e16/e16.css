@@ -5,10 +5,11 @@ img{
   width:calc(100vw/3);
   float:left;
 }
+
 #black{
   width:100vw;
   height:auto;
-  background-color:black;
+  background-color:red;
   z-index:1;
 }
 /* #change{
@@ -169,12 +170,20 @@ img{
   }
 #road{
   width:100vw;
-  height:810px;
+  height:auto;
   float:left;
   z-index:-1;
+  /* background-color: violet; */
+  background-image:url('moon.gif');
+  background-size: auto;
+  background-repeat:repeat;
 }
 img.road{
   width: 100%;
   height:100%;
   z-index:-1;
+  margin-top: 40vh;
+}
+img.font{
+  width:100%
 }
