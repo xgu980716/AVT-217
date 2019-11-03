@@ -15,6 +15,12 @@ body{
   margin-top:60px;
 }
 
+img{
+  width:100%;
+  height:100%;
+  float:left;
+}
+
 h1.yi{
   font-family: orbitron, sans-serif;
   font-weight: 500;
@@ -59,12 +65,12 @@ h1{
 
 #container1{
   max-width: max-content;
-  height:3128px;
-  margin-bottom: 100px;
+  height:2600px;
+  margin-bottom: 80px;
 }
 #big{
-  width:961px;
-  height:3128px;
+  width:962px;
+  height:2600px;
   background-color: #F2F2F2;
   margin:auto;
   margin-right: 0px;
@@ -73,10 +79,94 @@ h1{
   float:left;
 }
 .poster{
-  width:960px;
-  height:984px;
-  margin-top:40px;
+  width:962px;
+  height:800px;
+  margin-top:35px;
   background-color: grey;
+}
+
+.top{
+  width:962px;
+  height:142px;
+  float:left;
+  margin-top: 0;
+  /* background-color: red; */
+}
+
+.lpor{
+  width:142px;
+  height:142px;
+  float:left;
+}
+
+.ltext{
+  width:790px;
+  height:142px;
+  float:left;
+  margin-left: 30px;
+  /* background-color: blue; */
+}
+
+.lname{
+  width:100%;
+  height:auto;
+  float: left;
+  /* line-height: 0; */
+  font-family: yrsa,serif;
+  font-weight: 600;
+  font-style: normal;
+  vertical-align: middle;
+  font-size: 35pt;
+  /* background-color:yellow; */
+}
+
+.lemotion{
+  width:100%;
+  height:auto;
+  float:left;
+  vertical-align: middle;
+  /* background-color: yellow; */
+  font-family: yrsa,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28pt;
+  margin-top: 28px;
+}
+.mediume{
+  width:100%;
+  height:auto;
+  float:left;
+  margin-top: 30px;
+}
+
+.lbottom{
+  width:100%;
+  height:auto;
+  float:left;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+
+.location{
+  width:auto;
+  height:auto;
+  margin-left: 20px;
+  font-family: yrsa,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25pt;
+  vertical-align: middle;
+  /* background-color: blue; */
+  float:left;
+}
+
+.button{
+  width:27pt;
+  height:28pt;
+  float:right;
+  margin-right: 20px;
+  line-height: 0;
+  vertical-align: baseline;
 }
 #small{
   width:300px;
@@ -90,8 +180,27 @@ h1{
 .people{
   width:280px;
   height:144px;
-  margin-top:40px;
+  margin-top:37px;
   background-color: grey;
+}
+
+.rpor{
+  width:144px;
+  height:144px;
+  float:left;
+}
+
+.rtext{
+  width:auto;
+  height:auto;
+  float:left;
+  font-family: yrsa,serif;
+  font-weight: 600;
+  font-style: normal;
+  vertical-align: middle;
+  font-size: 20pt;
+  margin-left: 10px;
+  /* background-color: red; */
 }
 /* HOT */
 #Hot{
@@ -106,19 +215,38 @@ h1{
 }
 #container2{
   max-width: fit-content;
-  height: 1700px ;
+  height: 2000px ;
   margin: auto;
   background-color: none;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .square{
   width:390px;
-  height:485px;
+  height:600px;
   border-radius: 0 0 17px 17px;
   background-color: #f2f2f2;
   float:left;
   margin: 35px auto;
   margin-left: 50px;
+}
+
+.img{
+  width:390px;
+  height:390px;
+  float:left;
+}
+
+.mtext{
+  width:80%;
+  height:auto;
+  margin-left:10%;
+  margin-top: 20px;
+  font-family: yrsa,serif;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: middle;
+  font-size: 20pt;
+  float:left;
 }
 /* video */
 #video{
@@ -136,6 +264,37 @@ h1{
   height:926px;
   background-color: #f2f2f2;
   margin: 50px auto;
+}
+
+.video{
+  width:1290px;
+  height:726px;
+  float:left;
+}
+
+.bpor{
+  width:140px;
+  height:140px;
+  float:left;
+  margin-top:20px;
+}
+
+.btext{
+  width: 1110px;
+  height:auto;
+  float:left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: yrsa,serif;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: middle;
+  font-size: 25pt;
+}
+
+source{
+  width:100%;
+  height:auto;
 }
 /*  a  */
 a:link{
