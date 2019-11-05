@@ -706,6 +706,7 @@ a:active{
     height:1350px;
     margin-bottom: 60px;
     float:left;
+    margin-right: calc(100vw - 560px -26.7px);
   }
   #big{
     width:560px;
@@ -713,7 +714,7 @@ a:active{
     background-color: #F2F2F2;
     margin:auto;
     margin-right: 0px;
-    margin-left: calc(50vw - 280px);
+    margin-left: 26.7px;
     border-radius: 28.5px 0 0 28.5px;
     float:left;
     overflow-y: scroll;
@@ -809,14 +810,14 @@ a:active{
     vertical-align: baseline;
   }
   #small{
-    width:600px;
+    width:200px;
     height:200px;
     background-color: #F2F2F2;
     margin-left: 15px;
     border-radius: 28.5px 28.5px 0 0 ;
     float:left;
     overflow-x:scroll;
-    display:none;
+    visibility: hidden;
   }
   .people{
     width:210px;
@@ -944,6 +945,7 @@ a:active{
     height:auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   body{
     background-color: #CCCCCC;
@@ -957,7 +959,7 @@ a:active{
   }
   #board{
     width:305px;
-    height:31.25px;
+    height:100px;
     background: linear-gradient(to right, rgba(127, 71,221), orange);;
     margin:auto;
     margin-top:17.5px;
@@ -971,30 +973,30 @@ a:active{
 
   h1.yi{
     font-family: orbitron, sans-serif;
-    font-weight: 108;
+    font-weight: 267;
     font-style: normal;
     color: #F7931E;
-    font-size:8.75pt;
+    font-size:21pt;
     float:left;
-    margin-left: 26.7px;
+    margin-left: calc(40% - 10.5pt);
     margin-top: 29px;
     display:block;
     }
 
   h1{
-    font-size:21pt;
+    font-size:20pt;
     font-family: roboto-mono,monospace;
     font-weight: 225;
     font-style: normal;
     float:left;
     line-height: 0px;
-    margin-left: 26.7px;
+    margin-left: 23px;
     margin-top: 29px;
     /* display:none; */
   }
   .line{
     background:linear-gradient(to right, rgba(127, 71,221), orange);
-    width:732.8px;
+    width:305px;
     height:5pt;
     margin:auto;
     margin-top:0px;
@@ -1016,47 +1018,47 @@ a:active{
 
   #container1{
     max-width: max-content;
-    height:1350px;
-    margin-bottom: 60px;
+    height:583px;
+    margin-bottom: 20px;
     float:left;
   }
   #big{
-    width:560px;
-    height:1400px;
+    width:320px;
+    height:583px;
     background-color: #F2F2F2;
     margin:auto;
     margin-right: 0px;
-    margin-left: calc(50vw - 280px);
-    border-radius: 28.5px 0 0 28.5px;
+    margin-left: 0;
     float:left;
     overflow-y: scroll;
+    border-radius: 0;
   }
   .poster{
-    width:542px;
-    height:485px;
+    width:305px;
+    height:350px;
     margin-top:26.25px;
     background-color: grey;
   }
 
   .top{
-    width:540px;
-    height:106.5px;
+    width:305px;
+    height:106px;
     float:left;
     margin-top: 0;
     /* background-color: red; */
   }
 
   .lpor{
-    width:106.5px;
-    height:106.5px;
+    width:106px;
+    height:106px;
     float:left;
   }
 
   .ltext{
-    width:411px;
-    height:106.5px;
+    width:171.25px;
+    height:44.375px;
     float:left;
-    margin-left: 22.5px;
+    margin-left: 9.375px;
     /* background-color: blue; */
   }
 
@@ -1066,10 +1068,10 @@ a:active{
     float: left;
     /* line-height: 0; */
     font-family: yrsa,serif;
-    font-weight: 450;
+    font-weight: 400;
     font-style: normal;
     vertical-align: middle;
-    font-size: 26.25pt;
+    font-size: 20pt;
     /* background-color:yellow; */
   }
 
@@ -1080,16 +1082,16 @@ a:active{
     vertical-align: middle;
     /* background-color: yellow; */
     font-family: yrsa,serif;
-    font-weight: 300;
+    font-weight: 100;
     font-style: normal;
-    font-size: 21pt;
-    margin-top: 21px;
+    font-size: 17pt;
+    margin-top: 8.75px;
   }
   .mediume{
     width:100%;
     height:auto;
     float:left;
-    margin-top: 22.5px;
+    margin-top: 9.375px;
   }
 
   .lbottom{
@@ -1105,17 +1107,17 @@ a:active{
     height:auto;
     margin-left: 15px;
     font-family: yrsa,serif;
-    font-weight: 300;
+    font-weight: 100;
     font-style: normal;
-    font-size: 18.75pt;
+    font-size: 17pt;
     vertical-align: middle;
     /* background-color: blue; */
     float:left;
   }
 
   .button{
-    width:20.25pt;
-    height:21pt;
+    width:16pt;
+    height:17pt;
     float:right;
     margin-right: 15px;
     line-height: 0;
@@ -1162,20 +1164,20 @@ a:active{
   #Hot{
     margin:0px 0 15px 22.5px;
     vertical-align: middle;
-    font-size:30pt;
+    font-size:21pt;
     font-family: roboto-mono,monospace;
-    font-weight: 225;
-    font-style: normal;
+    font-weight: 160;
+    font-style: normal
     float:left;
-    margin-left: 37.5px;
+    margin-left: 26.7px;
   }
   #container2{
-    max-width: 700px;
+    max-width: 310px;
     height: 1030px ;
     margin: auto;
-    background-color: none;
-    margin-bottom: 0px;
-    overflow-y: hidden;
+    background-color: white;
+    margin-bottom: 50px;
+    overflow-y: scroll;
     float:left;
   }
   .square{
@@ -1185,7 +1187,7 @@ a:active{
     background-color: #f2f2f2;
     float:left;
     margin: 26.25px auto;
-    margin-left: 37.5px;
+
   }
 
   .img{
@@ -1210,25 +1212,25 @@ a:active{
   #video{
     margin:0px 0 15px 22.5px;
     vertical-align: middle;
-    font-size:30pt;
+    font-size:21pt;
     font-family: roboto-mono,monospace;
-    font-weight: 225;
-    font-style: normal;
+    font-weight: 160;
+    font-style: normal
     float:left;
     margin-left: 37.5px;
   }
   #container3{
-    width:688px;
-    height:494.5px;
+    width:320px;
+    height:400px;
     background-color: #f2f2f2;
     float:left;
-    margin-left: 24px;
-    margin:24 auto;
+    margin-left: 0px;
+    margin:0 auto;
   }
 
   .video{
-    width:688px;
-    height:387.2px;
+    width:320px;
+    height:180px;
     float:left;
   }
 
@@ -1240,7 +1242,7 @@ a:active{
   }
 
   .btext{
-    width: 592px;
+    width: 230px;
     height:auto;
     float:left;
     margin-top: 10.7px;
