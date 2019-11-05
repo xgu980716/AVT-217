@@ -978,7 +978,7 @@ a:active{
     color: #F7931E;
     font-size:21pt;
     float:left;
-    margin-left: calc(40% - 10.5pt);
+    margin-left: calc(40% - 10pt);
     margin-top: 29px;
     display:block;
     }
