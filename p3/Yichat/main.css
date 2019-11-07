@@ -307,22 +307,23 @@ video{
 /*  a  */
 a:link{
   color:black;
+  border-bottom: none;
 }
 a:hover{
   color:orange;
-  backgroud-color: none;
-  border-bottom: 10px orange;
+  background-color: none;
   cursor: grab;
+  border-bottom: none;
 }
 a:focus {
   color: yellow;
   }
 a:visited{
-  color:black;
-  border-bottom:none;
+  color:grey;
+  border-bottom: 2px black;
 }
 a:active{
-  color:red;
+  color:orange;
 }
 
 @media screen and (max-width: 2000px) {
