@@ -68,6 +68,11 @@ h1{
   height:2600px;
   margin-bottom: 80px;
 }
+
+.topsmall{
+  display:none;
+}
+
 #big{
   width:980px;
   height:2600px;
@@ -398,6 +403,11 @@ a:active{
     margin-bottom: 60px;
     float:left;
   }
+
+  .topsmall{
+    display:none;
+  }
+
   #big{
     width:737px;
     height:1400px;
@@ -703,18 +713,67 @@ a:active{
 
   #container1{
     max-width: max-content;
-    height:1350px;
+    height:1500px;
     margin-bottom: 60px;
     float:left;
     margin-right: calc(100vw - 560px -26.7px);
   }
+
+  .topsmall{
+    width:732.8px;
+    height:150px;
+    float:left;
+    background-color: #F2F2F2;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display:block;
+    margin-bottom: 20px;
+  }
+
+  .tcontainer{
+    width: max-content;
+    height:auto;
+    float:left;
+  }
+
+  .tbox{
+    width:105px;
+    height:140px;
+    float:left;
+    /* background-color: grey; */
+    margin-left: 10px;
+  }
+
+  .tpor{
+    width:105px;
+    height:105px;
+    float:left;
+    margin:0 auto;
+  }
+
+  .tname{
+    width:100%;
+    height:auto;
+    float: left;
+    display: block;
+    /* background-color: yellow; */
+    /* line-height: 0; */
+    margin:0 auto;
+    font-family: yrsa,serif;
+    font-weight: 450;
+    font-style: normal;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 17pt;
+  }
+
   #big{
     width:560px;
     height:1400px;
     background-color: #F2F2F2;
     margin:auto;
     margin-right: 0px;
-    margin-left: 26.7px;
+    margin-left: calc(50% - 280px);
     border-radius: 28.5px 0 0 28.5px;
     float:left;
     overflow-y: scroll;
@@ -784,7 +843,7 @@ a:active{
     width:100%;
     height:auto;
     float:left;
-    margin-top: 15px;
+    margin-top: 10px;
     /* background-color: red; */
   }
 
@@ -1014,6 +1073,10 @@ a:active{
     font-style: normal;
     float:left;
     margin-left: 26.7px;
+  }
+
+  .topsmall{
+    display:none;
   }
 
   #container1{
