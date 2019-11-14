@@ -6,9 +6,21 @@ $(document).ready(function(){
     $('.no12').toggleClass('no123');
   });
 
-  $('.sunny').click(function(){
-    $('.no2').toggleClass('test');
-    $('.no2').css('font-size','10vw');
+
+  $("#hide").click(function(){
+    $(".no2").hide();
+  });
+  $("#show").click(function(){
+    $(".no2").show();
+  });
+
+  $('.no31').mouseover(function(){
+    $('.no32').toggleClass('no33');
+    $('.no31 h1').css('font-size', '2em');
+  });
+  $('.no31').mouseout(function(){
+    $('.no31 h1').css('font-size', '4em');
+    $('.no32').toggleClass('no33');
   });
 });
 
