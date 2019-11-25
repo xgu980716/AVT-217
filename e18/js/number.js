@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var number = Math.floor(Math.random() * 1440);
+    var number = Math.floor(Math.random() * 1000);
   	console.log(number);
     $('#line').css('width', number);
   	var guesses = '';
@@ -11,6 +11,10 @@ $(document).ready(function() {
   		if (number == guess) {
   			$('h1').text(number + ' is right!');
   			$('input').val('');
+        $('.button p').text('Play Again?');
+  			$('#submit').click(function() {
+  				location.reload(true);
+  			});
   		} else if (number < guess) {
   			$('h1').text(guess + ' is too high');
   			$('input').val('')
