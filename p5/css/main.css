@@ -1,0 +1,47 @@
+body{
+  width:100vw;
+  background-color: white;
+}
+#mainc{
+  width:1440px;
+  margin:auto;
+}
+
+#middlec{
+  width:1080px;
+  height:1080px;
+  background-image: url('../source/source.gif');
+  margin:auto;
+  float:left;
+
+}
+
+#leftc, #rightc{
+  width:180px;
+  height:100vh;
+  float:left;
+  /* background-color: blue; */
+  z-index: 1;
+  /* display:none; */
+}
+
+.lfg, .lsg, .ltg, .rfg, .rsg, .rtg{
+  width:350px;
+  height:300px;
+  margin-top:50px;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+
+ .rfg, .rsg, .rtg{
+   float:right;
+   transform:rotateY(180deg);
+ }
+
+ .hole{
+   width:60px;
+   height:60px;
+ }
