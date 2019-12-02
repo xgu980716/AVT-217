@@ -11,9 +11,9 @@ body{
   width:1080px;
   height:1080px;
   background-image: url('../source/source.gif');
+  background-image: url('../source/source.png');
   margin:auto;
   float:left;
-
 }
 
 #leftc, #rightc{
@@ -22,15 +22,40 @@ body{
   float:left;
   /* background-color: blue; */
   z-index: 1;
-  /* display:none; */
+  /* visibility: hidden; */
 }
 
+/* gun */
 .lfg, .lsg, .ltg, .rfg, .rsg, .rtg{
   width:350px;
   height:300px;
   margin-top:50px;
+  /* position: absolute; */
+  opacity:0;
 }
 
+.lfg{
+  transform: rotate(35deg);
+  -webkit-animation: lfg 5s; /* Chrome,    Safari, Opera */
+  /* animation: mymove 2s ; */
+}
+
+@-webkit-keyframes lfg {
+    80% {-webkit-transform: rotate(-45deg);}
+}
+.lsg{
+    -webkit-animation: lsg 5s; /* Chrome,    Safari, Opera */
+}
+@-webkit-keyframes lsg {
+    80% {-webkit-transform: rotate(-45deg);}
+}
+.ltg{
+  transform: rotate(-35deg);
+  -webkit-animation: ltg 5s; /* Chrome,    Safari, Opera */
+}
+@-webkit-keyframes ltg {
+    80% {-webkit-transform: rotate(-45deg);}
+}
 img{
   width:100%;
   height:100%;
@@ -41,7 +66,86 @@ img{
    transform:rotateY(180deg);
  }
 
+.rfg{
+  transform: rotateY(180deg) rotate(35deg);
+  -webkit-animation: rfg 5s; /* Chrome,    Safari, Opera */
+}
+@-webkit-keyframes rfg {
+    80% {-webkit-transform:rotateY(180deg) rotate(-45deg);}
+}
+
+.rsg{
+  -webkit-animation: rsg 5s; /* Chrome,    Safari, Opera */
+}
+@-webkit-keyframes rsg {
+    80% {-webkit-transform:rotateY(180deg) rotate(-45deg);}
+}
+
+.rtg{
+  transform: rotateY(180deg) rotate(-35deg);
+  -webkit-animation: rtg 5s; /* Chrome,    Safari, Opera */
+}
+@-webkit-keyframes rtg {
+    80% {-webkit-transform:rotateY(180deg) rotate(-45deg);}
+}
+
+/* hole */
  .hole{
    width:60px;
    height:60px;
+   padding-left: 20vw;
+   opacity:0;
  }
+
+#h1{
+  padding-left: 30vw;
+  padding-top: 400px;
+}
+
+#h2{
+  padding-left: 40vw;
+  margin-top: -20px;
+}
+
+#h3{
+  padding-left: 25vw;
+  margin-top: 0px;
+}
+
+#h4{
+  padding-left: 35vw;
+  margin-top: -10px;
+}
+
+#h5{
+  padding-left: 45vw;
+  margin-top: -50px;
+}
+
+#h6{
+  padding-left: 30vw;
+  margin-top: -20px;
+}
+
+.color{
+  width:100vw;
+  height:100vh;
+  position: fixed;
+  margin:-10px;
+  background-color: red;
+  opacity:0;
+}
+/* .image{
+  width:100vw;
+  height:100vh;
+  opacity: 1;
+  position:fixed;
+  z-index: 1;
+} */
+h1{
+  text-align: center;
+  margin-top: 50vh;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
+  font-weight: 800;
+}
