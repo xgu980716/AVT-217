@@ -2,6 +2,8 @@ body {
   background-color: smokewhite;
   text-align: center;
   margin:auto;
+  width:100vw;
+  height:auto;
 }
 img {
   max-width: 100%;
