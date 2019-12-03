@@ -98,32 +98,32 @@ img{
  }
 
 #h1{
-  padding-left: 30vw;
+  padding-left: 40%;
   padding-top: 400px;
 }
 
 #h2{
-  padding-left: 40vw;
+  padding-left: 50%;
   margin-top: -20px;
 }
 
 #h3{
-  padding-left: 25vw;
+  padding-left: 35%;
   margin-top: 0px;
 }
 
 #h4{
-  padding-left: 35vw;
+  padding-left: 45%;
   margin-top: -10px;
 }
 
 #h5{
-  padding-left: 45vw;
+  padding-left: 55%;
   margin-top: -50px;
 }
 
 #h6{
-  padding-left: 30vw;
+  padding-left: 40%;
   margin-top: -20px;
 }
 
@@ -131,7 +131,7 @@ img{
   width:100vw;
   height:100vh;
   position: fixed;
-  margin:-10px;
+  margin:-5px 0 0 -5px;
   background-color: red;
   opacity:0;
 }
@@ -144,7 +144,7 @@ img{
 } */
 h1{
   text-align: center;
-  margin-top: 50vh;
+  margin-top: 45vh;
   font-family: 'Bebas Neue', cursive;
   font-size: 5em;
   font-weight: 800;
