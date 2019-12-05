@@ -1,14 +1,14 @@
 body{
   width:100vw;
   height:auto;
-  background-color: #F6EED9;
+  background-color: #DED3B7;
 }
 #container{
   width:1440px;
   height:1861px;
   margin:0px auto;
   background-image: url("detail.png");
-  border: 5px solid black;
+  /* border: 5px solid black; */
 }
 /* @media screen and (max-width: 2000px) {
     body {
@@ -21,7 +21,7 @@ body{
     height:1394px;
     margin:0px auto;
     background-image: url("detail1080.png");
-    border: 5px solid black;
+    /* border: 5px solid black; */
   }
 }
 @media screen and (max-width: 1079px) {
@@ -30,7 +30,7 @@ body{
     height:993px;
     margin:0px auto;
     background-image: url("detail768.png");
-    border: 5px solid black;
+    /* border: 5px solid black; */
   }
 }
 @media screen and (max-width: 767px){
@@ -39,6 +39,6 @@ body{
     height:1894px;
     margin:0px auto;
     background-image: url("detailM.png");
-    border: 5px solid black;
+    /* border: 5px solid black; */
   }
 }
